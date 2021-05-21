@@ -1,0 +1,30 @@
+
+    Python Setup:
+    Required Python 3.8 or higher. You can download the latest Python version from Python.org.,
+    Also required pipenv. To install pipenv, run pip install pipenv from the command line.,
+    You should also have a Python editor/IDE of your choice. Good choices include PyCharm and Visual Studio Code.
+    You will also need Git to copy this project code.
+
+    WebDriver Setup :
+    For Web UI testing, you will need to install the latest versions of Google Chrome or Mozilla Firefox.
+    You will also need to install the latest versions of the WebDriver executables for these browsers: ChromeDriver for Chrome and geckodriver for Firefox.
+    ChromeDriver and geckodriver must be installed on the system path.,
+
+    WebDriver Setup for Windows :
+    To install ChromeDriver and geckodriver on Windows,
+    1.Create a folder named C:\\Selenium.,
+    2.Move the executables into this folder.,
+    3.Add this folder to the Path environment variable.
+
+    Project Setup,
+    1.Clone this repository.,
+    2.Run cd spitogatos to enter the project.
+    3.Run pipenv install to install the dependencies.,
+    4.Run pipenv run python -m pytest to verify that the framework can run tests.,
+
+    Solution Files :
+    1. spitogatos
+    2. spitogatos_test
+    3. Spitogatos_Test_Plan.pdf
+    4. Test Report Spitogatos.xlsx
+    5. bug_screenshot.png
