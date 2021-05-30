@@ -5,7 +5,7 @@ from selenium.webdriver import Chrome
 BASE_URL = "http://375.synergatos.gr/en/propertyDetails/13079"
 
 
-class SpitogatosUtilities(object):
+class SpitogatosUtilities():
 
     def __init__(self):
         self.browser = Chrome()
