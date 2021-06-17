@@ -2,7 +2,7 @@ from pages.sgdigital import SgdigitalUtilities
 
 
 def test_invalid_sgdigital_submit():
-    # Given the Sgdigital home page is displayed
+    # Given the Sgdigital contact page is displayed
     b1 = SgdigitalUtilities()
 
     # When the user submits invalid inputs in submission form
@@ -22,7 +22,7 @@ def test_invalid_sgdigital_submit():
 
 def test_mandatory_sgdigital_submit():
     errormessage = "This field is required."
-    # Given the Sgdigital home page is displayed
+    # Given the Sgdigital contact page is displayed
     b1 = SgdigitalUtilities()
 
     # When the user submits only optional inputs
