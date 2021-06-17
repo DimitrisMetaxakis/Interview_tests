@@ -34,8 +34,7 @@ def test_mandatory_sgdigital_submit():
     assert b1.warning_message_company() == errormessage
     assert b1.warning_message_message() == errormessage
 
-    # Bug : Inline error does not appear
-    # assert b1.warning_message_phone() == "The Phone is required"
+
 
     # Close browser
     b1.close_browser()
